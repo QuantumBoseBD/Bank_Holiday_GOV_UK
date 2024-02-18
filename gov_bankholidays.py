@@ -3,6 +3,7 @@ import pandas as pd
 import sqlalchemy as sa
 from datetime import datetime
 
+#need to check whether OOP is needed, as it is entirely one function
 def fetch_bank_holidays():
     url = "https://www.gov.uk/bank-holidays.json"
     response = requests.get(url)
